@@ -1,0 +1,56 @@
+body {
+    background-image: url(background.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: "Lora", sans-serif; 
+    text-align: center;
+    color: white; 
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  p {
+    margin: 0;
+  }
+  
+  button {
+    font-weight: bold;
+    margin-top: 20px;
+    padding: 10px 30px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #949f5c;
+    border: none;
+    border-radius: 25px; 
+    display: inline-block;
+    text-align: center;
+  }
+
+  button:hover {
+    background-color: rgb(20, 183, 237); 
+    transform: scale(1.05); 
+  }
+
+  button:active {
+    background-color: rgb(0, 166, 255); 
+    transform: scale(0.98);
+  }
+  
+  #responseText {
+    font-weight: bold;
+    margin-top: 20px;
+    font-size: 18px;
+    color: black;
+    background-color: #885b98;
+    border: none;
+    border-radius: 25px; 
+    display: inline-block;
+    text-align: center;
+  }
